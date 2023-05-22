@@ -23,20 +23,53 @@
   <main class="main">
 
     <header class="header">
-      <img class="photo profile.photo" src="/assets/img/profile.jpg" alt="foto de perfil">
+      <img class="photo" id="profile.photo" src="/assets/img/profile.jpg" alt="foto de perfil">
       
-      <h1 class="title">Olá, <br>eu sou <br> <span class="profile.name">Carregando...</span></h1>
+      <h1 class="title">Olá, <br>eu sou <br> <span id="profile.name">Carregando...</span></h1>
       
       <div class="info">
-        <p class="job"><span class="profile.job">Carregando...</span>
-        <p class="location"><span class="profile.location">Carregando...</span>
+        <p class="job"><span id="profile.job">Carregando...</span>
+        <p class="location"><span id="profile.location">Carregando...</span>
         <p class="phone">
-          <a class="profile.phone" href="tel:+55(12) 99756-0514">Carregando...</a></p>
+          <a id="profile.phone" href="tel:(12) 99756-0514">Carregando...</a></p>
         <p class="email">
-          <a class="profile.email" href="mailto:thatcisio77@gmail.com">Carregando...</a></p>
+          <a id="profile.email" href="mailto:thatcisio77@gmail.com">Carregando...</a></p>
       </div>
     </header>
-    
+
+    <section class="acordeon">
+      <button class="trigger">
+        <h2>Skills</h2>
+      </button>
+      <div class="content">
+        <div class="skills">
+
+          <section class="tools">
+            <h3>ferramentas:</h3>
+            <ul>
+              <li>
+              <img src="data/imgs/angular.png" alt="angular" title="angular">
+              </li>
+              <li>
+              <img src="data/imgs/nodejs.png" alt="nodejs" title="nodejs">
+              </li>
+              <li>
+              <img src="/data/imgs/git.png" alt="git" title="git">
+              </li>
+            </ul>
+          </section>
+          <section class="personal">
+            <h3>Pessoais:</h3>
+            <ul id="profile.skills.softskills">
+              <li>Caregando...</li>
+              <li>Caregando...</li>
+              <li>Caregando...</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+            
     <section class="acordeon">
       <button class="trigger">
         <h2>Idiomas</h2>
@@ -108,39 +141,6 @@
       </div>
     </section>
     
-    <section class="acordeon">
-      <button class="trigger">
-        <h2>Skills</h2>
-      </button>
-      <div class="content">
-        <div class="skills">
-
-          <section class="tools">
-            <h3>ferramentas:</h3>
-            <ul>
-              <li>
-                <img src="data/imgs/angular.png" alt="angular" title="angular">
-              </li>
-              <li>
-                <img src="data/imgs/nodejs.png" alt="nodejs" title="nodejs">
-              </li>
-              <li>
-                <img src="/data/imgs/git.png" alt="git" title="git">
-              </li>
-            </ul>
-          </section>
-          <section class="personal">
-            <h3>Pessoais:</h3>
-            <ul>
-              <li>adaptabilidade</li>
-              <li>Comunicação</li>
-              <li>Organização</li>
-              <li>Trabalho em equipe</li>
-            </ul>
-          </section>
-        </div>
-      </div>
-    </section>
 
   </main>
 
