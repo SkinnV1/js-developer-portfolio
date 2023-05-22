@@ -40,11 +40,23 @@ function updatePortfolio(profileData) {
   <a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.url}</a></li>`).join('')
 }
 
+function updateExp(profileData) {
+  const professionalExperience = document.getElementById('profile.professionalExperience')
+  professionalExperience.innerHTML = profileData.professionalExperience.map(exp => `<li><h3 class="title">${exp.name}<br></h3>
+  <p class="period">${exp.period}</p></li>`).join('')
+  
+  const academicExperience = document.getElementById('profile.academicExperience')
+  academicExperience.innerHTML = profileData.academicExperience.map(exp => `<li><h3 class="title">${exp.name}<br></h3>
+  <p class="period">${exp.period}</p></li>`).join('')
+
+}
+
 (async () =>{
   const profileData = await fethcProfileData()
   updateProfileData(profileData)
   updateSkill(profileData)
   updateLanguage(profileData)
   updatePortfolio(profileData)
+  updateExp(profileData)
 
 })()

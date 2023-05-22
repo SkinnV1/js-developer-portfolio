@@ -56,5 +56,15 @@
       "period": "Set. 2022 - Dez. 2022",
       "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
     }
+  ],
+  "academicExperience": [
+    {
+      "name": "Bacharelao em Química / USP",
+      "period": "Mar. 2012 - Dez. 2022"
+    },
+    {
+      "name": "MBA Gestão de Negócios / ESALQ - USP",
+      "period": "Mai. 2023 - Dez. 2024"
+    }
   ]
 }
