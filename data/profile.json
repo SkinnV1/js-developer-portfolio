@@ -9,15 +9,15 @@
     "hardSkills": [
       {
         "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/SkinnV1/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/SkinnV1/js-developer-portfolio/main/data/imgs/angular.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/SkinnV1/js-developer-portfolio/main/data/imgs/html.png"
       }
     ],
     "softSkills": [
@@ -29,7 +29,7 @@
     ]
   },
   "languages": [
-    "Português BR",
+    "Português (Nativo)",
     "Inglês (Avançado)",
     "Espanhol (Básico)"
   ],
@@ -40,7 +40,7 @@
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "name": "Pokedex",
       "url": "https://github.com/SkinnV1/pokedex",
       "github": true
     }
