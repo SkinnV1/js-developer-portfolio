@@ -23,7 +23,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/icons/check.svg');
+  background-image: url('../icons/check.svg');
   margin-right: .5rem;  
 }
 
@@ -61,7 +61,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/icons/github.svg');
+  background-image: url('../icons/github.svg');
   margin-right: .5rem;
 }
 
@@ -94,7 +94,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/icons/calendar.svg');
+  background-image: url('../icons/calendar.svg');
   margin-right: .5rem;
 }
 

@@ -13,7 +13,7 @@
   height: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/assets/icons/header.svg);
+  background-image: url(../icons/header.svg);
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -66,19 +66,19 @@
 }
 
 .info .job::before{
-  background-image: url('/assets/icons/job.svg');
+  background-image: url('../icons/job.svg');
 }
 
 .info .location::before{
-  background-image: url('/assets/icons/location.svg');
+  background-image: url('../icons/location.svg');
 }
 
 .info .phone::before{
-  background-image: url('/assets/icons/phone.svg');
+  background-image: url('../icons/phone.svg');
 }
 
 .info .email::before{
-  background-image: url('/assets/icons/email.svg');
+  background-image: url('../icons/email.svg');
 }
 
 
